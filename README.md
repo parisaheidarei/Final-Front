@@ -10,9 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Theme</title>
 </head>
-<body >
-  
-    <!--start here-->
+<body style="background-image: url(https://source.unsplash.com/random/562x562);">
+<!--start here-->
 <nav class="navbar navbar-expand-sm  py-2"  style="background-color:Violet;">
     <div class="container">
         <a href="index.html" class="navbar-brand">professional dresses</a>
@@ -33,7 +32,7 @@
         <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown mr-3">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
-                    <i class="fas fa-user-friend"></i>sign up
+                    <i class="fas fa-user"></i>sign up
                 </a>
                 <div class="dropdown-menu">
                     <a href="profile.html" class="dropdown-item">
@@ -49,82 +48,44 @@
                  <i class="fas fa-user-timmes"></i>login
              </a>
             </li>
-            <li class="nav-item">
-             <a href="login.html" class="nav-link">
-                 <i class="fas fa-user-circle"></i>
-             </a>
-            </li>
         </ul>
     </div>
     </div>
 </nav>
-
-<!--showcase slider-->
-<section id="showcase">
-    <div id="mycarousel" class="carousel slide" data-ride="carousel" >
-<ol class="carousel-indicators">
-   <li data-target="#mycarousel" data-slide-to="1" class="active"></li> 
-   <li data-target="#mycarousel" data-slide-to="2" ></li> 
-   <li data-target="#mycarousel" data-slide-to="3" ></li> 
-   <li data-target="#mycarousel" data-slide-to="4" ></li> 
-</ol>
-
-
-<div class="carousel-inner">
-    <div class="carousel-item carousel-image-1 active">
+   
+     <!--photo gallery--><!--not work-->
+<section id="gallery" class="py-0 ">
         <div class="container">
-        <div class="carousel-caption d-none d-sm-block text-right mb-5">
-            <h1 class="display-3">designing</h1>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt laudantium obcaecati autem! Ratione odit sunt quas aspernatur laboriosam quisquam saepe.</p>
-            <a href="#" class="btn btn-danger btn-lg">learn more</a>
-        </div>    
+            <h1 class="text-center">sign up now </h1>
+            <div class="row lg-0">
+            <div class="col-lg-0" style="background-image: url(https://source.unsplash.com/random/560x560);">
+                   <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox"
+                   data-gallery="img-gallery" data-height="560" data-width="560">
+                   <div class="container ;width:922px ; hieght:1200px;" style="background-color:rgb(89, 53, 104);">
+                    <h1 class="display-0"  >I'm a tailor</h1>
+                      <a href="#" class="btn btn-danger btn-lg">sign up </a>
+                  </div>    
+                  <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
+                </a>
+               </div> 
+    
+               
+               <div class="col-lg-0" style="background-image: url(https://source.unsplash.com/random/561x561); " >
+                <a href="https://source.unsplash.com/random/561x561" data-toggle="lightbox"
+                data-gallery="img-gallery" data-height="561" data-width="561">
+                <div class="container ;width:922px ; hieght:1200px;" style="background-color:rgb(189, 130, 238);">
+                    <h1 class="display-0" >I'm a user </h1>
+                      <a href="#" class="btn btn-danger btn-lg">sign up </a>
+                  </div> 
+             <img src="https://source.unsplash.com/random/561x561" alt="" class="img-fluid">
+             </a>
+            </div> 
+    
+       
+         </div>
         </div>
-    </div>
-
-    <div class="carousel-item carousel-image-2 ">
-        <div class="container">
-        <div class="carousel-caption d-none d-sm-block  mb-5">
-            <h1 class="display-3">sewing</h1>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt laudantium obcaecati autem! Ratione odit sunt quas aspernatur laboriosam quisquam saepe.</p>
-            <a href="#" class="btn btn-primary btn-lg">learn more</a>
-        </div>    
-        </div>
-    </div>
-
-    <div class="carousel-item carousel-image-3 ">
-        <div class="container">
-        <div class="carousel-caption d-none d-sm-block text-right mb-5">
-            <h1 class="display-3">tournament</h1>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt laudantium obcaecati autem! Ratione odit sunt quas aspernatur laboriosam quisquam saepe.</p>
-            <a href="#" class="btn btn-success btn-lg">learn more</a>
-        </div>    
-        </div>
-    </div>
-
-    <div class="carousel-item carousel-image-4 ">
-        <div class="container">
-        <div class="carousel-caption d-none d-sm-block  mb-5">
-            <h1 class="display-3">store</h1>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt laudantium obcaecati autem! Ratione odit sunt quas aspernatur laboriosam quisquam saepe.</p>
-            <a href="#" class="btn btn-primary btn-lg">learn more</a>
-        </div>    
-        </div>
-    </div>
-
-
-
-
-
-</div>
-<a href="#mycarousel" data-slide="prev" class="carousel-control-prev">
-    <span class="carousel-control-prev-icon"></span>
-</a>
-<a href="#mycarousel" data-slide="next" class="carousel-control-next">
-    <span class="carousel-control-next-icon"></span>
-</a>
-</div>
-</section>
-<!--footer-->
+    </section>
+    <!--footer-->
 <footer id="main-footer" class=" text-white mt-5 p-5" style="background-color:Violet;">
     <div class="container">
         <div class="row">
@@ -137,29 +98,3 @@
         </div>
     </div>
     </footer>
-
-    <script
-    src="http://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-
-<script>
-// get the current year for the copyright
-$('#year').text(new Data().getFullYear());
-//configure slider
-$('.carousel').carousel({
-interval:6000,
-pause:'hover'
-});
-//lightbox init
-$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-                event.preventDefault();
-                $(this).ekkoLightbox();
-            });
-
-</script>
-</body>
-</html>
